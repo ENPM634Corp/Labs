@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ENPM634-Security-red?style=for-the-badge" alt="ENPM634"/>
   <img src="https://img.shields.io/badge/Lab_4-Advanced_Enumeration-blue?style=for-the-badge" alt="Lab 4"/>
-  <img src="https://img.shields.io/badge/Difficulty-Intermediate-orange?style=for-the-badge" alt="Difficulty"/>
+  <img src="https://img.shields.io/badge/Difficulty-Standard-green?style=for-the-badge" alt="Difficulty"/>
 </p>
 
 ---
