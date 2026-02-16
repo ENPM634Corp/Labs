@@ -1,0 +1,7 @@
+services:
+  fwe-easy:
+    build: .
+    container_name: FWE-Easy
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
