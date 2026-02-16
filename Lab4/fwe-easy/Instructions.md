@@ -38,8 +38,8 @@ docker compose version
 # Navigate to the lab directory
 cd /path/to/files/
 
-# Build and start the lab
-docker compose up -d --build fwe-easy
+# Pull and start the lab
+docker compose up -d fwe-easy
 
 # Verify the container is running
 docker compose ps
@@ -80,7 +80,7 @@ The target machine is running three services: **FTP (21)**, **SSH (22)**, and **
 | Issue | Fix |
 |-------|-----|
 | All ports show `filtered` | Make sure you're scanning the container IP, not localhost. Verify the container is running with `docker compose ps` |
-| Container won't start | Check logs: `docker compose logs fwe-easy`. Rebuild: `docker compose up -d --build --force-recreate fwe-easy` |
+| Container won't start | Check logs: `docker compose logs fwe-easy`. Recreate: `docker compose up -d --force-recreate fwe-easy` |
 | A tool complains a port is already in use | Another process may be occupying that port. Identify it with `sudo lsof -i :<port>` and stop it if needed |
 
 ---
