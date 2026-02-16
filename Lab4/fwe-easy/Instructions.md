@@ -32,12 +32,16 @@ docker --version
 docker compose version
 ```
 
-### 2. Start the Lab
+### 2. Clone the Repository
 
 ```bash
-# Navigate to the lab directory
-cd /path/to/files/
+git clone -b Lab4_Advanced_Enumeration https://github.com/ENPM634Corp/Labs.git
+cd Labs/Lab4/fwe-easy
+```
 
+### 3. Start the Lab
+
+```bash
 # Pull and start the lab
 docker compose up -d fwe-easy
 
@@ -48,7 +52,7 @@ docker compose ps
 docker inspect FWE-Easy --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
 ```
 
-### 3. Tear Down
+### 4. Tear Down
 
 When you are done:
 ```bash
