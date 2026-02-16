@@ -1,4 +1,4 @@
-# FWE-Easy — Firewall Evasion Challenge
+# FWE-Easy - Firewall Evasion Challenge
 
 ## Objective
 
