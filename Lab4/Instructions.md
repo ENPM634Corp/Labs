@@ -71,7 +71,7 @@ The target machine is running three services: **FTP (21)**, **SSH (22)**, and **
 
 ## Hint
 
-> Not all scan types interact with firewalls the same way. If one type of probe is being blocked, think about what makes that probe different from others at the TCP level — and whether the firewall is smart enough to tell the difference.
+> Not all scan types interact with firewalls the same way. If one type of probe is being blocked, think about what makes that probe different from others at the TCP level and whether the firewall is smart enough to tell the difference.
 
 ---
 
