@@ -85,6 +85,7 @@ The target machine is running three services: **FTP (21)**, **SSH (22)**, and **
 |-------|-----|
 | All ports show `filtered` | Make sure you're scanning the container IP, not localhost. Verify the container is running with `docker compose ps` |
 | Container won't start | Check logs: `docker compose logs fwe-easy`. Recreate: `docker compose up -d --force-recreate fwe-easy` |
+| `Pool overlaps with other one on this address space` | Another Docker network is using the same subnet. Run `docker network prune` to remove unused networks, then try again. If it still fails, stop any other running containers first with `docker compose down` in their respective directories |
 | A tool complains a port is already in use | Another process may be occupying that port. Identify it with `sudo lsof -i :<port>` and stop it if needed |
 
 ---
