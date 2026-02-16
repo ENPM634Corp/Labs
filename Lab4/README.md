@@ -6,7 +6,7 @@
 
 ---
 
-<h1 align="center">Lab 4 — Advanced Enumeration & Firewall Evasion</h1>
+<h1 align="center">Lab 4: Advanced Enumeration & Firewall Evasion</h1>
 
 <p align="center"><em>Think like an attacker. Probe like a professional.</em></p>
 
@@ -16,7 +16,7 @@
 
 All lab tasks, setup steps, and deliverables are outlined in one place:
 
-> **[`Instructions.md`](Instructions.md)** — Start here.
+> **[`Instructions.md`](Instructions.md)** - Start here.
 
 Read through it carefully before you begin. It contains everything you need: environment setup, the challenge objective, hints, and submission requirements.
 
@@ -51,7 +51,7 @@ Read through it carefully before you begin. It contains everything you need: env
 - **Work individually** unless told otherwise by your instructor.
 - **Do not share flags** with other students.
 - **Do not attack** any systems outside of the provided Docker environment.
-- **Document everything** — your write-up is as important as finding the flag.
+- **Document everything** - your write-up is as important as finding the flag.
 - **Ask questions** if you get stuck; struggling is expected, suffering in silence is not.
 
 ---
