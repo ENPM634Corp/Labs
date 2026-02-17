@@ -19,7 +19,7 @@ If Docker is not already installed on your system:
 sudo apt update
 
 # Install Docker
-sudo apt install -y docker.io docker-compose-v2
+sudo apt install -y docker.io docker-compose
 
 # Add your user to the docker group (avoids needing sudo for docker commands)
 sudo usermod -aG docker $USER
