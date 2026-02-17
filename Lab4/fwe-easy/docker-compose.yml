@@ -1,0 +1,17 @@
+services:
+  fwe-easy:
+    image: jalwin/enpm634-lab4:latest
+    container_name: FWE-Easy
+    cap_add:
+      - NET_ADMIN
+    networks:
+      labnet:
+        ipv4_address: 10.10.10.10
+    restart: unless-stopped
+
+networks:
+  labnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.10.0/24
