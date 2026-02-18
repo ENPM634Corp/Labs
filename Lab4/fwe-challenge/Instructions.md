@@ -49,7 +49,7 @@ docker compose up -d
 docker compose ps
 
 # Find the target IP
-docker inspect FWE-Hard --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
+docker inspect FWE-Challenge --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
 ```
 
 ### 3. Tear Down
@@ -70,7 +70,7 @@ Enumerate the target, understand what's protecting it, and capture the flag. Tha
 
 ## Hints
 
-If you're stuck, reach out to your TA or Instructor — they'll point you in the right direction.
+If you're stuck, reach out to your TA or Instructor. They'll point you in the right direction.
 
 ---
 
@@ -79,7 +79,7 @@ If you're stuck, reach out to your TA or Instructor — they'll point you in the
 | Issue | Fix |
 |-------|-----|
 | Container won't start | Check logs: `docker compose logs`. Re-pull and restart: `docker compose pull && docker compose up -d --force-recreate` |
-| Can't find the target IP | Verify the container is running with `docker compose ps`, then use `docker inspect FWE-Hard --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'` |
+| Can't find the target IP | Verify the container is running with `docker compose ps`, then use `docker inspect FWE-Challenge --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'` |
 
 ---
 
