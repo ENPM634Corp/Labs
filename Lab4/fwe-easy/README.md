@@ -12,6 +12,18 @@
 
 ---
 
+## Setup
+
+Clone the repo and navigate to the challenge directory:
+
+```bash
+git clone https://github.com/ENPM634Corp/Labs.git
+cd Labs/Lab4/fwe-easy
+docker compose up -d
+```
+
+---
+
 ## Getting Started
 
 All lab tasks, setup steps, and deliverables are outlined in one place:
