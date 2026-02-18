@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ENPM634-Security-red?style=for-the-badge" alt="ENPM634"/>
   <img src="https://img.shields.io/badge/Lab_4-Advanced_Enumeration-blue?style=for-the-badge" alt="Lab 4"/>
-  <img src="https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge" alt="Difficulty"/>
+  <img src="https://img.shields.io/badge/Difficulty-Advanced-orange?style=for-the-badge" alt="Difficulty"/>
 </p>
 
 ---
@@ -9,6 +9,18 @@
 <h1 align="center">Lab 4: Advanced Enumeration & Firewall Evasion</h1>
 
 <p align="center"><em>Think like an attacker. Probe like a professional.</em></p>
+
+---
+
+## Setup
+
+Clone the repo and navigate to the challenge directory:
+
+```bash
+git clone https://github.com/ENPM634Corp/Labs.git
+cd Labs/Lab4/fwe-challenge
+docker compose up -d
+```
 
 ---
 
