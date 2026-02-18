@@ -16,7 +16,7 @@
 | Challenge | Difficulty | Description |
 |-----------|------------|-------------|
 | **[FWE-Easy](fwe-easy/)** | Standard | Identify firewall filtering and evade it to retrieve a hidden service banner |
-| **FWE-Challenge** | Hard | Coming soon |
+| **[FWE-Challenge](fwe-challenge/)** | Advanced | The firewall got an upgrade — and trust issues. Think you can sneak past it? |
 
 Each challenge folder contains its own `Instructions.md` with setup steps, objectives, hints, and deliverables.
 

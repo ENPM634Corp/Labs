@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ENPM634-Security-red?style=for-the-badge" alt="ENPM634"/>
   <img src="https://img.shields.io/badge/Lab_4-Advanced_Enumeration-blue?style=for-the-badge" alt="Lab 4"/>
-  <img src="https://img.shields.io/badge/Difficulty-Standard-green?style=for-the-badge" alt="Difficulty"/>
+  <img src="https://img.shields.io/badge/Difficulty-Advanced-orange?style=for-the-badge" alt="Difficulty"/>
 </p>
 
 ---
@@ -18,7 +18,7 @@ Clone the repo and navigate to the challenge directory:
 
 ```bash
 git clone https://github.com/ENPM634Corp/Labs.git
-cd Labs/Lab4/fwe-easy
+cd Labs/Lab4/fwe-challenge
 docker compose up -d
 ```
 
@@ -51,7 +51,7 @@ Read through it carefully before you begin. It contains everything you need: env
 1.  Read Instructions.md
 2.  Pull and launch the Docker lab environment
 3.  Enumerate the target
-4.  Evade the firewall
+4.  Find a way in
 5.  Capture the flag
 6.  Write up your findings and submit
 ```
