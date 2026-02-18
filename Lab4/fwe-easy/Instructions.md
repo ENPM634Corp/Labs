@@ -35,7 +35,7 @@ docker compose version
 ### 2. Clone the Repository
 
 ```bash
-git clone -b Lab4_Advanced_Enumeration https://github.com/ENPM634Corp/Labs.git
+git clone https://github.com/ENPM634Corp/Labs.git
 cd Labs/Lab4/fwe-easy
 ```
 

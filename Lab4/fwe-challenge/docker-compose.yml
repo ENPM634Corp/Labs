@@ -1,0 +1,7 @@
+services:
+  lab:
+    image: jalwin/enpm634-lab4-challenge:latest
+    container_name: FWE-Challenge
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
