@@ -8,7 +8,7 @@ This challenge requires **web enumeration**, **advanced Nmap techniques**, and *
 
 **Flag format:** `ENPM634{...}`
 
-**Difficulty:** Intermediate
+**Difficulty:** Advanced
 
 ---
 
@@ -36,23 +36,24 @@ docker --version
 docker compose version
 ```
 
-### 2. Start the Lab
+### 2. Clone the Repository
 
 ```bash
-# Navigate to the lab directory
-cd /path/to/fwe-challenge/
+git clone https://github.com/ENPM634Corp/Labs.git
+cd Labs/Lab4/fwe-challenge
+```
 
+### 3. Start the Lab
+
+```bash
 # Pull the image and start the lab
 docker compose up -d
 
 # Verify the container is running
 docker compose ps
-
-# Find the target IP
-docker inspect FWE-Challenge --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
 ```
 
-### 3. Tear Down
+### 4. Tear Down
 
 When you are done:
 ```bash
@@ -80,6 +81,7 @@ If you're stuck, reach out to your TA or Instructor. They'll point you in the ri
 |-------|-----|
 | Container won't start | Check logs: `docker compose logs`. Re-pull and restart: `docker compose pull && docker compose up -d --force-recreate` |
 | Can't find the target IP | Verify the container is running with `docker compose ps`, then use `docker inspect FWE-Challenge --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'` |
+
 
 ---
 
